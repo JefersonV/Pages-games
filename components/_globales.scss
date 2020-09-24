@@ -15,6 +15,25 @@ $variation-color: #3f579a;
 @function get-opacity($color,$nivelOpacity){
     @return rgba($color,$nivelOpacity);
 }
+
+@each $header, $size in (h1:30px,h2: 25px, h3:20px){
+    #{$header}{
+        font-size: $size;
+        margin: 0;
+    }
+}
+
+@mixin titulos($fuente){
+    @if $fuente == $Font1{
+        font-family: $Font1;
+    }
+    @else {
+        font-family: $Font2;
+        text-transform: uppercase;
+    }
+}
+
+
 * {
     /*Para no tener problema con 
     margin ni padding*/
@@ -24,7 +43,7 @@ $variation-color: #3f579a;
 body{
     margin: 0;
     padding: 0;
-    font-family: $Font1;
+    @include titulos($Font1);
 
 }
 

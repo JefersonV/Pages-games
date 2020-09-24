@@ -11,8 +11,7 @@
         font-weight: 600;
         font-size: 20px;
         text-align: center;
-        text-transform: uppercase;
-        font-family: $Font2;
+        @include titulos($Font2)
     }
 
     span{
