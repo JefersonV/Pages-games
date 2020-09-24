@@ -1,0 +1,31 @@
+$Font1: 'Lato',sans-serif;
+$Font2: 'Oswald', sans-serif;
+$primary-color: #333333;
+$light-color: #FFFFFF;
+$secundary-color: #8841DA;
+$variation-color: #3f579a;
+
+@mixin caja {
+    border-radius: 20px;
+    box-shadow: 0 20px 33px 0 rgba(0, 0, 0, .5);
+    color: $primary-color;
+    background-color: $light-color;
+}
+* {
+    /*Para no tener problema con 
+    margin ni padding*/
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $Font1;
+
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}

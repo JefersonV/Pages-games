@@ -19,6 +19,40 @@ main {
   height: 100vh;
 }
 
+.estadistica--perfil {
+  width: 50%;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 15px;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  -webkit-box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.estadistica--perfil h3 {
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.estadistica--perfil span {
+  font-size: 12px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+}
+
 .perfil {
   width: 50%;
   padding-top: 50px;
@@ -32,14 +66,14 @@ main {
   border-radius: 50em;
 }
 
-.perfil__nombre {
+.perfil__nombre, .perfil__minibio h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: 20px;
   font-family: "Oswald", sans-serif;
 }
 
-.perfil__titulo {
+.perfil__titulo, .perfil__minibio h3 {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
@@ -60,35 +94,43 @@ main {
   color: #FFFFFF;
 }
 
-.estadistica--perfil {
+.perfil__minibio {
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.ubicacion--perfil {
   width: 50%;
   height: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin: 0 auto;
-  padding-top: 15px;
-  /* border: 1px solid black; */
+  margin: 30px auto 0 auto;
+  padding: 20px 0 0 50px;
   border-radius: 20px;
+  -webkit-box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+  color: #333333;
   background-color: #FFFFFF;
+}
+
+.ubicacion--perfil i {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  font-size: 40px;
+  color: #3f579a;
+}
+
+.ubicacion--perfil h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
   color: #333333;
 }
 
-.estadistica--perfil h3 {
-  font-weight: 600;
-  font-size: 20px;
-  text-align: center;
+.ubicacion--perfil h3 {
   text-transform: uppercase;
-  font-family: "Oswald", sans-serif;
-}
-
-.estadistica--perfil span {
   font-size: 12px;
-  text-align: center;
-  padding-bottom: 10px;
   font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
+  color: #3f579a;
 }
 /*# sourceMappingURL=ejercicio1.css.map */
