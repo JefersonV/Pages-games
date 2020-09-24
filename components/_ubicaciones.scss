@@ -24,5 +24,6 @@
         font-size: 12px;
         font-family: $Font2;
         color: $variation-color;
+        color: get-opacity($light-color,.20);
     }
 }
