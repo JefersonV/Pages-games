@@ -1,3 +1,10 @@
+$Font1: 'Lato',sans-serif;
+$Font2: 'Oswald', sans-serif;
+$primary-color: #333333;
+$light-color: #FFFFFF;
+$secundary-color: #8841DA;
+$variation-color: #3f579a;
+
 * {
     /*Para no tener problema con 
     margin ni padding*/
@@ -7,7 +14,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Lato', sans-serif;
+    font-family: $Font1;
 
 }
 
@@ -20,6 +27,8 @@ main{
 .perfil{
     width: 50%;
     padding-top: 50px;
+    color: $light-color;
+    background-color: $secundary-color;
     &__avatar{
         display: block;
         margin: 0 auto;
@@ -29,6 +38,7 @@ main{
         text-transform: uppercase;
         text-align: center;
         font-size: 20px;
+        font-family: $Font2;
     }
     &__titulo{
         text-transform: uppercase;
@@ -46,6 +56,37 @@ main{
         text-decoration: none;
         text-transform: uppercase;
         text-align: center;
+        font-family: $Font2;
+        color: $light-color;
     }
 }
+
+.estadistica--perfil {
+    width: 50%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 15px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: $light-color;
+    color: $primary-color;
+    h3 {
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $Font2;
+    }
+
+    span{
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 10px;
+        font-family: $Font2;
+        text-transform: uppercase;
+    }
+}
+
 
