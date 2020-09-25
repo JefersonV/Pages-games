@@ -1,8 +1,10 @@
 .perfil{
-    width: 50%;
+    width: 45%;
     padding-top: 50px;
     color: $light-color;
     background-color: $secundary-color;
+    border-radius: 0 30px 30px 0;
+    box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
     &__avatar{
         display: block;
         margin: 0 auto;
