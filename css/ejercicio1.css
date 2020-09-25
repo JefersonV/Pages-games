@@ -72,7 +72,7 @@ main {
   width: 45%;
   padding-top: 50px;
   color: #FFFFFF;
-  background-color: #8841DA;
+  background-color: #e6e9ed;
   border-radius: 0 30px 30px 0;
   -webkit-box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
@@ -89,6 +89,7 @@ main {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #8841DA;
 }
 
 .perfil__titulo, .perfil__minibio h3 {
@@ -96,7 +97,7 @@ main {
   text-align: center;
   font-weight: bold;
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(51, 51, 51, 0.5);
 }
 
 .perfil__boton {
@@ -111,7 +112,7 @@ main {
   color: #FFFFFF;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(51, 51, 51, 0.2);
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -198,6 +199,8 @@ main {
 .articulos {
   width: 55%;
   padding: 50px 0 0 50px;
+  background-color: #181717;
+  color: #FFFFFF;
 }
 
 .articulo {
@@ -217,6 +220,7 @@ main {
   font-size: 20px;
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .articulo__description {
