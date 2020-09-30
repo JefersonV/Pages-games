@@ -1,0 +1,62 @@
+@primary-color: #333333;
+@light-color: #FFF;
+@secundary-color: #8841da;
+@variant-color: #012179;
+@Font1: 'Lato', sans-serif;
+@Font2: 'Oswald', sans-serif;
+@fuente-base: 18px;
+.sombra-caja {
+	box-shadow: 0px 5px 15px 0px fade(#333333, 50%); 
+}
+
+.Oswald {
+	font-family: 'Oswald',sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+@dark-mode: true;
+.dark() when (@dark-mode = true) {
+	background-color:#333333;
+	color: #fff;
+  
+	.intro {
+	  	background-color: #8841da;
+	}
+  
+	.caja {
+	  span {
+		color: fade(#fff, 80%);
+	  }
+	}
+  
+	.caja__contenido {
+	  background-color: #8841da;
+	  a {
+		color: fade(#fff, 50%);
+	  }
+	}
+  
+	.articulo--principal {
+	  h2 {
+		color: #8841da;
+	  }
+	}
+  }
+*{
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: 'Lato',sans-serif;
+	color: white;
+	background: #333333;
+	
+
+	.dark;
+}
+
+h1,h2,h3 {
+	.Oswald;
+	margin: 0;
+}
