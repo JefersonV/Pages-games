@@ -5,6 +5,17 @@
 @Font1: 'Lato', sans-serif;
 @Font2: 'Oswald', sans-serif;
 @fuente-base: 18px;
+.sombra-caja {
+	box-shadow: 0px 5px 15px 0px fade(#333333, 50%); 
+}
+
+.Oswald {
+	font-family: 'Oswald',sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+
 *{
 	box-sizing: border-box;
 }
@@ -15,7 +26,6 @@ body {
 }
 
 h1,h2,h3 {
-	font-family: @Font2;
-	text-transform: uppercase;
+	.Oswald;
 	margin: 0;
 }
