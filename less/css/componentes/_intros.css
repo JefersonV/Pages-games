@@ -27,6 +27,7 @@
 .intro__categoria {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
 }
 .intro__titulo {
   font-family: 'Oswald', sans-serif;
@@ -51,4 +52,7 @@
 }
 .intro__autor span {
   display: inline-block;
+}
+.intro__autor--titulo {
+  color: rgba(255, 255, 255, 0.5);
 }

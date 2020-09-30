@@ -1,12 +1,19 @@
+@fuente-base: 18px;
+@color-secundario: #8841da;
 .articulo--principal{
     max-width: 660px;
     margin: 0 auto;
+    line-height: @fuente-base + 10%;
+    &__intro{
+      font-size: @fuente-base + 8%;
+    }
+  
     h2{
-        margin: 0 auto;
-        font-size: 50px;
-        text-align: center;
+      margin: 40px 0 40px 0;
+      font-size: 50px;
+      text-align: center;
     }
     h3{
-        color: @secundary-color;
+      color: @color-secundario;  
     }
-}
+  }
